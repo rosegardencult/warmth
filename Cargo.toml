@@ -1,0 +1,22 @@
+[package]
+name = "warmth"
+version = "0.1.0"
+authors = ["juniper wilde <juniper.r.wilde@gmail.com>"]
+description = "come close to the fire, stay warm"
+license = "MIT"
+keywords = ["warmth"]
+homepage = "https://github.com/rosegardencult/snowgoggles"
+repository = "https://github.com/rosegardencult/snowgoggles"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+booties = "0.1.0"
+earmuffs = "0.1.0"
+fluff = "0.1.0"
+parka = "0.1.0"
+snowgoggles = "0.1.0"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["staticlib"]
