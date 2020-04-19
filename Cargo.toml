@@ -1,12 +1,12 @@
 [package]
 name = "warmth"
 version = "0.1.0"
-authors = ["juniper wilde <juniper.r.wilde@gmail.com>"]
+authors = ["june wilde <jewilde@rosegardencult.com>"]
 description = "come close to the fire, stay warm"
-license = "MIT"
+license = "MPL-2.0"
 keywords = ["warmth"]
-homepage = "https://github.com/rosegardencult/snowgoggles"
-repository = "https://github.com/rosegardencult/snowgoggles"
+homepage = "https://github.com/rosegardencult/warmth"
+repository = "https://github.com/rosegardencult/warmth"
 readme = "README.md"
 edition = "2018"
 
@@ -19,4 +19,4 @@ snowgoggles = "0.1.0"
 
 [lib]
 path = "src/lib.rs"
-crate-type = ["staticlib"]
+crate-type = ["lib", "staticlib"]
