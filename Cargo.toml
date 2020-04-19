@@ -1,6 +1,6 @@
 [package]
 name = "warmth"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["june wilde <jewilde@rosegardencult.com>"]
 description = "come close to the fire, stay warm"
 license = "MPL-2.0"
